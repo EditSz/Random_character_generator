@@ -47,7 +47,7 @@ class StarWars extends React.Component {
     
     
     getNewCharacter() {
-        const randomName = Math.round(Math.random() * 82)
+        const randomName = Math.round(Math.random() * 88)
         const url = `https://akabab.github.io/starwars-api/api/id/${randomName}.json`
         fetch(url)
             .then(response => response.json())
@@ -102,7 +102,7 @@ class StarWars extends React.Component {
                                     {this.state.name}
                                 </h1>
                                 <p>
-                                    <span className="boldText">Height:</span> {this.state.height} cm
+                                    <span className="boldText">Height:</span> {this.state.height} m
                                 </p>
                                 <p>
                                     <span className="boldText">Home Planet:</span> {this.state.homeworld}
