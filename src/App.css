@@ -1,0 +1,89 @@
+
+ * {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+} 
+
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: 100vw;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:orange;
+}
+
+
+.logo{
+  margin-bottom: 1.87rem;
+}
+
+.btn {
+  background-color: black;
+  border: 0.01rem solid orange;
+  border-radius: 0.97rem;
+  color: orange;
+  padding: 1.25rem;
+  font-size: 1.56rem;
+}
+
+.char-image{
+  max-width: 25vw;
+  margin-top:1.25rem;
+  border: 0.01rem solid orange;
+  border-radius: 0.9rem;
+  background-color: black;
+}
+
+
+.character {
+  margin-top:1.25rem;
+  margin-left:6.25rem;
+  background-color: black;
+  float:left;
+  min-width: 50vw;
+  border: 0.01rem solid orange;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+ 
+
+ul {
+  list-style-type: none;
+}
+
+
+.boldText{
+  font-size: 1.56rem;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family:"Genos";
+  src: url("./fonts/Genos-VariableFont_wght.ttf");
+}
+
+.font-face-gm{
+  font-family: "Genos";
+}
+
+
